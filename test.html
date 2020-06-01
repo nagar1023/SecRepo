@@ -1,0 +1,283 @@
+<html>
+<head>
+<title> My resume</title>
+<script>
+
+function fun()
+{
+var n1=document.getElementById("t1").value;
+if(n1==""||n1==null)
+alert("Please Enter First Name");
+
+var n2=document.getElementById("t2").value;
+if(n2==""||n2==null)
+alert("Please Enter Last Name");
+
+var n3=document.getElementById("t3").value;
+if(n3==""||n3==null)
+alert("Please Enter Phone No");
+
+var n4=document.getElementById("t4").value;
+if(n4==""||n4==null)
+alert("Please Enter  Religion");
+
+var n5=document.getElementById("t5").value;
+if(n5==""||n5==null)
+alert("Please Enter Nationality");
+
+var n6=document.getElementById("t6").checked;
+var n7=document.getElementById("t7").checked;
+if((!n6||n7))
+alert("Please Fill The field Of Gender");
+
+
+var n8=document.getElementById("t8").value;
+if(n8==""||n8==null)
+alert("Please Enter Address");
+
+var n9=document.getElementById("t9").value;
+if(n9==""||n9==null)
+alert("Please Enter Email");
+
+
+var n10=document.getElementById("t10").checked;
+var n11=document.getElementById("t11").checked;
+var n12=document.getElementById("t12").checked;
+var n13=document.getElementById("t13").checked;
+var n14=document.getElementById("t14").checked;
+if(!(n10||n11||n12||n13||n14))
+alert("Please Fill The field For skills");
+
+var n15=document.getElementById("t15").selected;
+var n16=document.getElementById("t16").selected;
+var n17=document.getElementById("t17").selected;
+var n18=document.getElementById("t18").selected;
+var n19=document.getElementById("t19").selected;
+var n20=document.getElementById("t20").selected;
+var n21=document.getElementById("t21").selected;
+if(!(n15||n16||n17||n18||n19||n20||n21))
+alert("Please Select One Interest/Hobbies");
+
+var n=document.getElementById("t").value;
+if(n==""||n==null)
+alert("Please Enter Extra Activities");
+
+
+}
+
+</script>
+
+</head>
+
+<body>
+<BODY BGCOLOR="powderblue">
+
+<table border ="1" align="center" width="60%">
+<tr>
+<th><h1> Welcome To My Resume </h1></th>
+</tr>
+
+</table><br>
+<form onsubmit="fun()">
+<table border=1px > 
+
+<tr>
+<td><label>First Name:</label></td>
+<td><input type="text" placeholder="Enter First Name" size="30" id="t1"/><br/></br></td>
+</tr>
+<tr>
+<td><label>Last Name:</label></td>
+<td><input type="text" placeholder="Enter Last Name"  size="30" margin-right:30px id="t2" /><br/><br></td>
+</tr>
+<tr>
+<td><label>Phone Number:</label></td>
+<td><input type="text" placeholder="Phone number" size="30" id="t3"/><br/></br></td>
+</tr>
+<tr>
+<td><label>Religion:</label></td>
+<td><input type="text" placeholder="Enter  Name" size="30" id="t4"/><br/></br></td>
+</tr>
+<tr>
+<td><label>Nationality:</label></td>
+<td><input type="text" placeholder="Enter Name" size="30" id="t5"/><br/></br></td>
+</tr>
+<tr>
+<td><label>Marital Status</label></td>
+<td><select>
+<option >Un-Married</option>
+<option >Married</option>
+</select><br/></br></td>
+</tr>
+<tr>
+<td><label>Select Gender:</label><br></td>
+<td><label>Male</label><input type="radio" name="g" id="t6"/>
+<label>Female</label><input type="radio" name="g" id="t7"/><br/><br></td>
+</tr>
+<tr>
+ <td><label>Your Date of birth:</label><br /></td>
+<td><select name='date'>
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
+<option value='5'>5</option>
+<option value='6'>6</option>
+<option value='7'>7</option>
+<option value='8'>8</option>
+<option value='9'>9</option>
+<option value='10'>10</option>
+<option value='11'>11</option>
+<option value='12'>12</option>
+<option value='13'>13</option>
+<option value='14'>14</option>
+<option value='15'>15</option>
+<option value='16'>16</option>
+<option value='17'>17</option>
+<option value='18'>18</option>
+<option value='19'>19</option>
+<option value='20'>20</option>
+<option value='21'>21</option>
+<option value='22'>22</option>
+<option value='23'>23</option>
+<option value='24'>24</option>
+<option value='25'>25</option>
+<option value='26'>26</option>
+<option value='27'>27</option>
+<option value='28'>28</option>
+<option value='29'>29</option>
+<option value='30'>30</option>
+<option value='31'>31</option>
+</select>
+
+<select name='month'>
+<option value='1'>Jan</option>
+<option value='2'>Feb</option>
+<option value='3'>March</option>
+<option value='4'>April</option>
+<option value='5'>May</option>
+<option value='6'>June</option>
+<option value='7'>July</option>
+<option value='8'>Aug</option>
+<option value='9'>Sep</option>
+<option value='10'>Oct</option>
+<option value='11'>Nov</option>
+<option value='12'>Dec</option>
+</select>
+
+<select name='year'>
+<option value='1947'>1947</option>
+<option value='1948'>1948</option>
+<option value='1949'>1949</option>
+<option value='1950'>1950</option>
+<option value='1951'>1951</option>
+<option value='1952'>1952</option>
+<option value='1953'>1953</option>
+<option value='1954'>1954</option>
+<option value='1955'>1955</option>
+<option value='1956'>1956</option>
+<option value='1957'>1957</option>
+<option value='1958'>1958</option>
+<option value='1959'>1959</option>
+<option value='1960'>1960</option>
+<option value='1961'>1961</option>
+<option value='1962'>1962</option>
+<option value='1963'>1963</option>
+<option value='1964'>1964</option>
+<option value='1965'>1965</option>
+<option value='1966'>1966</option>
+<option value='1967'>1967</option>
+<option value='1968'>1968</option>
+<option value='1969'>1969</option>
+<option value='1970'>1970</option>
+<option value='1971'>1971</option>
+<option value='1972'>1972</option>
+<option value='1973'>1973</option>
+<option value='1974'>1974</option>
+<option value='1975'>1975</option>
+<option value='1976'>1976</option>
+<option value='1977'>1977</option>
+<option value='1978'>1978</option>
+<option value='1979'>1979</option>
+<option value='1980'>1980</option>
+<option value='1981'>1981</option>
+<option value='1982'>1982</option>
+<option value='1983'>1983</option>
+<option value='1984'>1984</option>
+<option value='1985'>1985</option>
+<option value='1986'>1986</option>
+<option value='1987'>1987</option>
+<option value='1988'>1988</option>
+<option value='1989'>1989</option>
+<option value='1990'>1990</option>
+<option value='1991'>1991</option>
+<option value='1992'>1992</option>
+<option value='1993'>1993</option>
+</select><br/></br></td>
+ </tr>
+<tr>
+<td><label>Address:</label></td>
+<td><textarea rows="5" cols="30" value="Enter Full Address" id="t8"></textarea><br><br></td>
+</tr>
+<tr>
+<td><label>Email:</label></td>
+<td><input type="text" placeholder="Enter Email Id" id="t9"/><br/></br></td>
+</tr>
+
+
+<!--
+<label>Qualification :</label><br/></br>
+<label>Course</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>Board</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<label>Year</label><br><br>
+<input type="text" value="Enter course"/>
+<input type="text" value="Enter board"/>
+<input type="text" value="Enter year"/><br/></br>
+<input type="text" value="Enter course"/>
+<input type="text" value="Enter board"/>
+<input type="text" value="Enter year"/><br/></br>
+<input type="text" value="Enter course"/>
+<input type="text" value="Enter board"/>
+<input type="text" value="Enter year"/><br/></br>
+
+-->
+<tr>
+<td><label>Skills:</label><br></td>
+<td><label>Tester:</label><input type="checkbox" name="c" id="t10"/>
+<label>Software Engg:</label><input type="checkbox" name="c" id="t11"/>
+<label>HR:</label><input type="checkbox" name="c" id="t12"/>
+<label>Team Leader:</label><input type="checkbox" name="c" id="t13"/>
+<label>Analyst:</label><input type="checkbox" name="c" id="t14"/><br><br></td>
+</tr>
+<tr>
+
+<td><label>Interest/Hobbies:</label></td>
+<td><select multiple >
+<option id="t15">Reading</option>
+<option id="t16">Writing</option>
+<option id="t17">Reading newspaper</option>
+<option id="t18">Arts</option>
+<option id="t19">DIY</option>
+<option id="t20">Creative art</option>
+<option id="t21">Riding</option>
+</select><br/></br></td>
+</tr>
+<tr>
+<td><label>Extra Activities:</label><td>
+<textarea rows="4" cols="50" value=" " id="t"></textarea>
+</tr>
+<tr>
+<td><input type="file" id="t22"><br><br><td>
+</tr>
+</table><br><br>
+<input type="submit" value="SUBMIT"/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="Reset" value="CANCEL" />
+
+
+
+</form>
+
+</body>
+</html>
+
+
